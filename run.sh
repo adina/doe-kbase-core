@@ -39,3 +39,8 @@ python merge.py *rpkm
 #requires R and dependencies phyloseq, plyr, ggplot, saves output as RData
 #also requires a meta.txt file
 R < core.R --vanilla
+
+#requires curl
+curl "http://api.metagenomics.anl.gov/1/annotation/similarity/mgm4566339.3?type=ontology&source=Subsystems" > annotations.txt
+
+python best-hit.py annotations.txt 
