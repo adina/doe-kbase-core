@@ -1,0 +1,1 @@
+#SampleID	Sample_name	Number_of_genomes_combinedmetagenome1.fa.renamed.sam.bam.bed.reads.mapped.rpkm	meta1	1metagenome2.fa.renamed.sam.bam.bed.reads.mapped.rpkm	meta2	2metagenome3.fa.renamed.sam.bam.bed.reads.mapped.rpkm	meta3	3
